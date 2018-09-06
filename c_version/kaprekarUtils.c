@@ -31,7 +31,7 @@ int main(int argc, char **argv) { //added main function
   int i;
   long square = n * (long) n;
   int numDigits = (int) log10(n) + 1;
-  long modulus = 0;
+  long modulus = 1; //should be 1 not 0, because otherwise multiplying by 10 in the loop will accomplish nothing
   long first, second;
 
   //for each possible "split" of the square...
