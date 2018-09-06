@@ -35,7 +35,7 @@ int main(int argc, char **argv) { //added main function
   long first, second;
 
   //for each possible "split" of the square...
-  for(i=1; i<=numberOfDigits; i++) {
+  for(i=1; i<=numDigits; i++) { //should be "numDigits" not "numberOfDigits", which is an undefined variable
     //increase the modulus by a factor of 10
     modulous *= 10;
 
