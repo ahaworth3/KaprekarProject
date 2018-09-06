@@ -30,7 +30,7 @@ int isKaprekar(int n) {
 
   int i;
   long square = n * (long) n;
-  int numDigits = (int) log10(n) + 1;
+  int numDigits = (int) log10(square) + 1; //should go through each digit of the square, not the number
   long modulus = 1; //should be 1 not 0, because otherwise multiplying by 10 in the loop will accomplish nothing
   long first, second;
 
