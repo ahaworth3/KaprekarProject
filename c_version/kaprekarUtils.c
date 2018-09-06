@@ -22,7 +22,7 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number,
  * <code>false</code> otherwise.
  */
-int main(int argc, char **argv) { //added main function
+int isKaprekar(int n) {
 
   if(n < 1) {
     return 0; //should be 0 and not "false" since boolean data types are undefined in c
