@@ -44,8 +44,7 @@ int main(int argc, char **argv) { //added main function
     second = square % modulus;
 
     //test if the split makes a Kaprekar number
-    if(second > 0 &&
-       first + second == n) {
+    if(second > 0 && first + second == n) { //just fixed the spacing here to make it look nicer
       return 1;
     }
   }
