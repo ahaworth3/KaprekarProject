@@ -37,7 +37,7 @@ int main(int argc, char **argv) { //added main function
   //for each possible "split" of the square...
   for(i=1; i<=numDigits; i++) { //should be "numDigits" not "numberOfDigits", which is an undefined variable
     //increase the modulus by a factor of 10
-    modulous *= 10;
+    modulus *= 10; //should be "modulus" not "modulous", which is an undefined variable
 
     //split the square into two parts
     first = square / modulus;
